@@ -17,7 +17,6 @@ jobs:
         run: go mod download
       - name: Run tests
         run: go test ./...
-
   compile:
     needs: test
     runs-on: ubuntu-latest
